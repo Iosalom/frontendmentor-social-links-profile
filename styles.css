@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  background: hsl(0, 0%, 8%);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  background: hsl(0, 0%, 12%);
+  color: white;
+  width: 400px;
+  height: 625px;
+  border-radius: 10px;
+}
+main img {
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin-top: 40px;
+}
+main h2 {
+  font-weight: 700;
+  margin-top: 40px;
+}
+main h4 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 14px;
+}
+main p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+main button {
+  color: white;
+  background: hsl(0, 0%, 20%);
+  font-weight: 600;
+  width: 300px;
+  height: 45px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main button:hover {
+  background: rgb(197, 248, 42);
+  color: hsl(0, 0%, 20%);
+  transition: 0.5s ease, color 0.5 ease-in-out;
+}
+main button:focus {
+  background: rgb(197, 248, 42, 0.8);
+  color: hsl(0, 0%, 20%);
+  transition: 0.5s ease-out, color 0.5s ease-out;
+}
+main button:focus:hover {
+  background: rgb(197, 248, 42);
+  transition: 0.3s ease;
+}
+main button:focus:active {
+  background: rgb(197, 248, 42, 0.8);
+  transition: 0.5s ease-out, color 0.5s ease-out;
+}
+@media (max-width: 456px) {
+  main {
+    width: 350px;
+  }
+}
+
+.attribution {
+  padding-top: 5px;
+  font-size: 11px;
+  text-align: center;
+  color: #eee;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
